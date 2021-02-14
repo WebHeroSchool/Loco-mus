@@ -32,6 +32,7 @@
   .goods__add-text {
     padding: 0;
     width: 25vw;
+    font-size: 13px;
   }
 
   .goods__arrow {
@@ -45,7 +46,7 @@
   }
 }
 
-@media screen and (max-aspect-ratio: 6/4) {
+@media screen and (max-aspect-ratio: 6/4)  {
   .main {
     background-image: linear-gradient(to right, #000 0% calc(261px + 200 * ((100vw - 800px) / (1440 - 800))), #fff 
     calc(261px + 200 * ((100vw - 900px) / (1440 - 800))) 100%);
@@ -172,7 +173,7 @@
 
   .promo__content-wrapper {
     width: 95%;
-    height: 92vh;
+    min-height: 84.56vh;
     background: url('img/promo-bg.svg') no-repeat,
     url('img/shadow.png') no-repeat;
     background-size: 75vw auto, 75vw auto;
@@ -208,7 +209,7 @@
   }
 }
 
-@media screen and (min-aspect-ratio: 1/10) and (max-width: 800px) and (min-width: 540px) and (min-height: 580px) {
+@media screen and (min-aspect-ratio: 1/10) and (max-width: 800px) and (min-width: 465px) and (min-height: 500px) {
   .header {
     margin-bottom: 5vh;
   }
@@ -240,6 +241,7 @@
 
   .promo__content-wrapper {
     background-size: 70vw auto, 70vw auto;
+    height: 84.56vh;
   }
 
   .promo__description {
@@ -339,7 +341,7 @@
   
   .main__title {
     font-weight: 700;
-    margin: calc(364px + 20 * ((100vh - 597px) / (750 - 597))) 0 0 7vw;
+    margin: calc(304px + 80 * ((100vh - 597px) / (750 - 597))) 0 0 7vw;
     line-height: calc(31px + 21 * ((100vw - 250px) / (375 - 250)));
     font-size: calc(30px + 20 * ((100vw - 250px) / (375 - 250)));
   }
@@ -479,7 +481,7 @@
     margin: 0;
     background-size: 93.5% auto, 93.5% auto;
     background-position: center top, center top 7vh;
-    padding-top: 64vw;
+    padding-top: 40.2vh;
   }
 
   .promo__content {

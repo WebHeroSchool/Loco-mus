@@ -382,7 +382,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: calc(7px + 8 * ((100vw - 400px) / (1440 - 400)));
   transition: .5s;
   cursor: pointer;
 }
@@ -411,7 +411,6 @@ text-shadow: 1px 1px 2px #64c4b8;
   transition: .5s;
   transform: translateX(-1.5vh);
 }
-
 
 .goods__more-title {
   margin: 0 1.5vh 0 0;
@@ -563,7 +562,7 @@ text-shadow: 1px 1px 2px #64c4b8;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: calc(7px + 8 * ((100vw - 400px) / (1440 - 400)));
   transition: .5s;
   cursor: pointer;
 }
